@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+ul li span {
+    vertical-align: middle;
+}
+
+#li-icono {
+    padding: 5px;
+}
+
+#li-icono:hover {
+    background-color: rgb(208, 204, 204);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+ul li button {
+    padding: 10px 30px;
+    font-size: 14px;
+    color: white;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 4%;
+}
+
+/* aqui empieza la seccion principal con logo, barra y botones  */
+.main-section {
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    /* background-color: rebeccapurple; */
+}
+
+.main-section img {
+    width: 280px;
+}
+
+#input-busqueda {
+    width: 500px;
+    padding: 10px 10px;
+    border: none;
+}
+
+#barra-busqueda {
+    border: 1px solid rgb(197, 197, 197);
+    width: 600px;
+    margin: auto;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+#barra-busqueda:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+#barra-busqueda span {
+    vertical-align: middle;  /* para centrar los iconos a los lados de la barra  */
+
+}
+
+#input-busqueda:focus {
+    outline: none;   /* para desaparecer el contorno de la barra  */
+}
+
+#botones {
+    margin-top: 30px;
+}
+
+#botones button {
+    border: none;
+    padding: 8px 20px;  /* para definir el tamano de los botones  */
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: #f8f9fa;   /* color del relleno de los botones  */
+    color: #3c4043;  /* color de fuente  */
+    margin-right: 8px;
+
+}
+
+#botones button:hover {
+    border: 1px solid #e2e2e2;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.pie-pagina-uno {
+    position: relative;
+}
+
+.pie-pagina-dos {
+    position: relative;
+}
