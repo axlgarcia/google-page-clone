@@ -129,7 +129,7 @@ footer {
     bottom: 0px;
     /*border: chocolate solid 3px;*/
     top: 500px;
-    height: 100px;
+    height: 105px;
     width: 100%;
 }
 
@@ -147,7 +147,7 @@ footer {
     text-decoration: none;
     margin-left: 10px;
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size: 15px;
 }
 #boton1-pie a:visited{
@@ -159,7 +159,7 @@ footer {
     bottom: 0px;
     left: 0px;
     width: 600px;
-    top: 40px;
+    top: 50px;
 }
 #botones-pie-izq .lista-izq{
     margin-right: 15px;
@@ -175,5 +175,5 @@ footer {
     bottom: 0px;
     right: 0px;
     width: 500px;
-    top: 40px;
+    top: 50px;
 }
