@@ -109,26 +109,12 @@ ul li button {
     border: 1px solid #e2e2e2;
 }
 
-/* footer {
-    position: absolute;
-    bottom: 0;
-}
-
-.pie-pagina-uno {
-    position: relative;
-}
-
-.pie-pagina-dos {
-    position: relative;
-} */
-
-/* Footer part */
+/* Footer */
 .f-abajo{
     background-color: rgb(244, 241, 241);
     position: relative;
     bottom: 0px;
-    /*border: chocolate solid 3px;*/
-    top: 500px;
+    top: 555px;
     height: 105px;
     width: 100%;
 }
@@ -136,13 +122,12 @@ ul li button {
 #boton1-pie{
     position: absolute;
     height: 40px;
-    /*background-color: magenta;*/
     padding: 3px;
     width: 100%;
     bottom: 55px;
     border-bottom: #D7D4D4 2px solid;
-    /*border-top: #D7D4D4 3px solid;*/
 }
+
 #boton1-pie #b-mex{
     text-decoration: none;
     margin-left: 10px;
@@ -150,27 +135,30 @@ ul li button {
     margin-bottom: 10px;
     font-size: 15px;
 }
+
 #boton1-pie a:visited{
     color: rgb(76, 74, 74);
 }
+
 #botones-pie-izq{
-    /*background-color: red;*/
     position: absolute;
     bottom: 0px;
     left: 0px;
     width: 600px;
     top: 50px;
 }
+
 #botones-pie-izq .lista-izq{
     margin-right: 15px;
     padding-left:  0px;
     left: 12px;
 }
+
 #botones-pie-izq .lista-izq li{
     display: inline-block;
 }
+
 #botones-pie-dere{
-    /*background-color: blue;*/
     position: absolute;
     bottom: 0px;
     right: 0px;
